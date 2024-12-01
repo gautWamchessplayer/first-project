@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="main-feedback-form">
+	<form action="#" method="POST">
+		<br><label for="name">Name</label>
+		<input type="text" id="name" name="name" class="name" placeholder="Your name" required><br>
+		
+	  <br><label for="email">Email</label>
+		<input type="email" name="email" id="email" class="email" placeholder="Your email" required><br>
+		
+		<br><label for="tel">Phone Number</label>
+		<input type="tel" name="tel" class="tel" maxlength="10" id="tel" placeholder="Your phone number" required><br>
+		
+		<label for="Email">Feedback Type</label><br>
+		
+		<input type="radio" id="comments" name="feedback_type" value="Comments">
+		<label for="comments">Comments</label><br>
+		<input type="radio" id="suggestions" name="feedback_type" value="Suggestions">
+		<label for="suggestions">Suggestions</label><br>
+		<input type="radio" id="questions" name="feedback_type" value="Questions">
+		<label for="questions">Questions</label><br><br>
+		
+		<label for="description_feedback">Description of your Feedback:</label>
+		<textarea name="description_feedback" id="description_feedback" placeholder="Please describe your feedback here" rows="4" required></textarea>
+		
+		<button type="submit"><input type="submit" name="submit" id="submit" value="submit" /></button>
+</body>
+</html>
