@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Environment protection.com </title>
+    <title>Environment protection.com</title>
     <link rel="stylesheet" href="styles1.css" />
   </head>
   <body bgcolor=yellow>
-      <h1 class="title">Lets save our earth! </h1>
+      <h1 class="title"><u><b><i><center>Lets save our earth!</center></i></b></u> </h1>
       <p id="currentTime"></p>
       <script src="script.js"></script>
-  </body>
-</html>
-<form action="/search" method="get">
-  <input type="text" name="query" placeholder="Search...">
-  <button type="submit">Search</button>
-</form>
-<p>
-<a href="page1.html" target="_self">Facts about water pollution</a>
-</p>
-<p>
-<a href="page2.html" target="_self">Facts about air pollution</a>
-</p>
-<p>
-<p>
-<a href="page5.html" target="_self">Facts about soil pollution</a>
-</p>
-<p>
-<a href="page3.html" target="_self">How can I help with reducing air pollution?</a>
-</p>
-<p>
-<a href="page4.html" target="_self">How can I help with reducing water pollution?</a>
-</p>
-<p>
-<a href="page6.html" target="_self">How can I help with reducing soil pollution?</a>
-</p>
+  <p><button onclick="window.location.href='page1.html';">water pollution facts</button></p>
+  <p><button onclick="window.location.href='page2.html';">air pollution facts</button></p>
+  <p><button onclick="window.location.href='page3.html';">soil pollution facts</button></p>
+  <p><button onclick="window.location.href='page4.html';">reducing water pollution</button></p>
+  <p><button onclick="window.location.href='page5.html';">reducing air pollution</button></p>
+  <p><button onclick="window.location.href='page6.html';">reducing soil pollution</button></p>
+  <p><button onclick="window.location.href='page7.html';">about us</button></p>
+  <p><button onclick="window.location.href='page19.html';">sign up or login</button></p>
 </body>
 </html>
