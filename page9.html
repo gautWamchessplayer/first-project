@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styles1.css" />
+      <h1 class="title"><u><b><i><center>Lets save our earth!</center></i></b></u> </h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body bgcolor=yellow>
+  <p><button onclick="window.location.href='page11.html';">Logout</button></p>
+  <p><button onclick="window.location.href='page12.html';">water pollution facts</button></p>
+  <p><button onclick="window.location.href='page13.html';">air pollution facts</button></p>
+  <p><button onclick="window.location.href='page14.html';">soil pollution facts</button></p>
+  <p><button onclick="window.location.href='page15.html';">reducing water pollution</button></p>
+  <p><button onclick="window.location.href='page16.html';">reducing air pollution</button></p>
+  <p><button onclick="window.location.href='page17.html';">reducing soil pollution</button></p>
+  <p><button onclick="window.location.href='page18.html';">about us</button></p>
+  <p><button onclick="window.location.href='page10.html';">feedback</button></p>
+<div class="dropdown">
+    <button class="dropbtn">Select Background Color</button>
+    <div class="dropdown-content">
+        <a href="#" onclick="changeColor('red')">Red</a>
+        <a href="#" onclick="changeColor('green')">Green</a>
+        <a href="#" onclick="changeColor('blue')">Blue</a>
+        <a href="#" onclick="changeColor('yellow')">Original</a>
+    </div>
+</div>
+
+<script>
+    function changeColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</body>
+</html>
