@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login Page</title>
-  <button onclick="window.location.href='index.html';">back to main page</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles4.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="loginForm">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="Login">
-    </form>
-
-    <script>
-        document.getElementById("loginForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent the form from submitting normally
-
-            // Simulate a successful login
-            var loginSuccessful = true;
-
-            if (loginSuccessful) {
-                window.location.href = "page9.html"; // Redirect to the dashboard page
-            } else {
-                alert("Login failed. Please try again.");
-            }
-        });
-    </script>
+  <button onclick="window.location.href='index.html';">back to main page</button>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Username" required />
+            <input type="password" id="loginPassword" placeholder="Password" required />
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="page20.html">Sign up</a></p>
+    </div>
+    
+    <script src="script1.js"></script>
 </body>
 </html>
